@@ -1,0 +1,20 @@
+.pagination {
+    display: flex;
+    flex-direction: row;
+    gap: 5px;
+    justify-content: center;
+    padding-top: 30px;
+    flex-wrap: wrap;
+    li {
+        border: 2px rgb(228, 228, 228) solid;
+        cursor: pointer;
+        a {
+            padding: 5px 15px;
+            display: block;
+        }
+
+        &.active {
+            border: 2px rgb(110, 110, 110) solid;
+        }
+    }
+}

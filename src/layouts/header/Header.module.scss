@@ -1,0 +1,40 @@
+.header {
+    background: white;
+    border-bottom: 2px rgb(228, 228, 228) solid;
+
+    &__nav {
+        padding: 15px 0;
+    }
+
+    &__logo {
+        display: block;
+        font-size: 30px;
+        text-align: center;
+        text-transform: uppercase;
+        color: black;
+    }
+
+    // &__search {
+    //     border: 2px rgb(228, 228, 228) solid;
+    //     border-radius: 3px;
+    //     width: 300px;
+    //     display: flex;
+    //     flex-direction: row;
+    //     // width: 100%; active
+    //     input {
+    //         padding: 5px 15px;
+    //         width: 75%;
+    //         &::placeholder {
+    //             color: rgb(205, 205, 205);
+    //         }
+    //     }
+
+    //     button {
+    //         padding: 5px 0;
+    //         width: 25%;
+    //         text-align: center;
+    //         cursor: pointer;
+    //         background: rgb(243, 243, 243);
+    //     }
+    // }
+}
