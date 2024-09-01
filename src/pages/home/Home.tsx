@@ -25,6 +25,7 @@ const Home: FC = () => {
     { id: 4, text: 'Количество по убыванию', value: 'stock', order: 'desc' },
     { id: 5, text: 'Сбросить', value: '', order: '' },
   ]
+  
   const handlePageClick = (event: { selected: number }) => {
     const section = document.getElementById('home');
     section!.scrollIntoView({ behavior: 'instant' })
