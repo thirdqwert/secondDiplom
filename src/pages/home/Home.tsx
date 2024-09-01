@@ -95,7 +95,6 @@ const Home: FC = () => {
               pageCount={pageCount}
               handlePageClick={handlePageClick}
               forcePage={forcePage} />
-            <button onClick={() => setForcePage(0)}>dsadsad</button>
           </div>
         </div>
       </section>
